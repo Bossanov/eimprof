@@ -1,0 +1,19 @@
+.class {
+    behavior:url(js/PIE.htc);
+    position:absolute;
+}
+
+.class {
+    behavior:url(js/PIE.htc);
+    position:relative;
+}
+
+#contact-form input[type='text'] {
+    padding-top: 12px;
+}
+
+.class {
+    behavior:url(js/PIE.htc);
+    position:fixed;
+}
+

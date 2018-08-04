@@ -1,0 +1,170 @@
+nav {
+  padding-top: 6px;
+  float: right;
+}
+/* Main menu styles
+========================================================*/
+.sf-menu {
+  float: right;
+  text-transform: uppercase;
+  margin-top: -1px;
+}
+.sf-menu > li {
+  float: left;
+  position: relative;
+  margin-right: 24px;
+}
+.sf-menu > li > .sf-with-ul:after {
+  font-family: FontAwesome;
+  font-size: 13px;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: default;
+  content: "\f0d7";
+  color: #606364;
+  bottom: 16px;
+  left: 50%;
+  margin-left: -3px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.sf-menu > li > a {
+  font: normal 12px/14px "Trebuchet MS", sans-serif;
+  display: inline-block;
+  padding: 31px 11px 30px 11px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  color: #606364;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.sf-menu > li > a:hover {
+  background: #d02525;
+  color: #ffffff;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.sf-menu .sfHover > a:after {
+  color: #ffffff;
+}
+.sf-menu > li.current {
+  background: #d02525;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.sf-menu > li.current > .sf-with-ul:after {
+  color: #ffffff;
+}
+.sf-menu > li.current > a {
+  color: #ffffff;
+}
+.sf-menu > li.sfHover > a {
+  background: #d02525;
+  color: #ffffff;
+}
+.sf-menu a {
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.sf-menu a:hover {
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+/* First level sub-menu styles
+========================================================*/
+.sf-menu ul {
+  font: 400 12px/18px Arial, sans-serif;
+  border-radius: 5px;
+  position: absolute;
+  top: 49px;
+  left: -22px;
+  background: #4a8aab;
+  padding: 26px 10px 30px 12px;
+  z-index: 2;
+  display: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.sf-menu ul > li + li {
+  margin-top: 15px;
+}
+.sf-menu ul li {
+  line-height: 16px;
+  position: relative;
+  display: inline-block;
+}
+.sf-menu ul li > .sf-with-ul:after {
+  font-family: FontAwesome;
+  font-size: 13px;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: default;
+  content: "\f0da";
+  color: #ffffff;
+  bottom: 0;
+  right: -16px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.sf-menu ul li a {
+  color: #ffffff;
+}
+.sf-menu ul li a:hover {
+  color: #010101;
+}
+.sf-menu ul > .sfHover > a:after {
+  color: #000000;
+}
+.sf-menu ul li.sfHover > a {
+  color: #010101;
+}
+/* Second level sub-menu styles
+========================================================*/
+.sf-menu ul ul {
+  font-size: 12px;
+  position: absolute;
+  top: -1px;
+  left: 95px;
+  background: #d02525;
+  padding: 0 30px 0 16px;
+  z-index: 4;
+}
+.sf-menu ul ul li {
+  line-height: 27px;
+  margin-top: 1px;
+}
+.sf-menu ul ul li a {
+  color: #ffffff;
+}
+.sf-menu ul ul li + li {
+  margin-top: 2px;
+}
+@media only screen and (max-width: 767px) {
+  .sf-menu {
+    display: none;
+  }
+  .select-menu {
+    display: block;
+    text-transform: capitalize;
+    float: none;
+    color: #606364;
+    width: 100%;
+    margin-top: 20px;
+    background: #ffffff;
+    font: 22px/28px "Istok Web", sans-serif;
+    text-align: left;
+    border: 1px solid #606364;
+    padding: 2px 0;
+    position: relative;
+  }
+  .select-menu option {
+    text-align: left;
+    position: relative;
+  }
+}
+/*Core variables and mixins*/
