@@ -334,7 +334,7 @@ h4 {
                     CONTENT styles
 =========================================================*/
 #content .blue-background {
-  background: url(../images/background1.png) repeat-x #387396;
+  background: url(../assets/background1.png) repeat-x #387396;
 }
 /* ======= List Type 1 ======= */
 .list1 {
@@ -450,13 +450,13 @@ h4 {
   top: 10px;
 }
 .marker1 {
-  background: url(../images/page2_img1.png) no-repeat left;
+  background: url(../assets/page2_img1.png) no-repeat left;
 }
 .marker2 {
-  background: url(../images/page2_img2.png) no-repeat left;
+  background: url(../assets/page2_img2.png) no-repeat left;
 }
 .marker3 {
-  background: url(../images/page2_img3.png) no-repeat left;
+  background: url(../assets/page2_img3.png) no-repeat left;
 }
 /* ======= People and their profession  ======= */
 .name,
@@ -608,11 +608,11 @@ blockquote .blockquote_author {
   margin-bottom: 13px;
 }
 .banners .banner1 {
-  background: url(../images/page4_img1.png) no-repeat center center;
+  background: url(../assets/page4_img1.png) no-repeat center center;
   background-size: cover;
 }
 .banners .banner2 {
-  background: url(../images/page4_img2.png) no-repeat center center;
+  background: url(../assets/page4_img2.png) no-repeat center center;
   background-size: cover;
   padding-bottom: 28px;
 }
@@ -620,7 +620,7 @@ blockquote .blockquote_author {
   margin-top: 17px;
 }
 .banners .banner3 {
-  background: url(../images/page4_img3.png) no-repeat center center;
+  background: url(../assets/page4_img3.png) no-repeat center center;
   background-size: cover;
 }
 .banners .banner3 h2 {
@@ -630,7 +630,7 @@ blockquote .blockquote_author {
   color: #4a8aab;
 }
 .banners .banner4 {
-  background: url(../images/page4_img4.png) no-repeat center center;
+  background: url(../assets/page4_img4.png) no-repeat center center;
   background-size: cover;
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -685,7 +685,7 @@ blockquote .blockquote_author {
 }
 /* ======= Banner After List ======= */
 .banners .banner5 {
-  background: url(../images/page5_img17.png) no-repeat center center;
+  background: url(../assets/page5_img17.png) no-repeat center center;
   background-size: cover;
   margin-top: 89px;
   padding-bottom: 33px;
@@ -801,7 +801,7 @@ blockquote .blockquote_author {
 }
 .mb0 dt:before {
   content: '';
-  background: url(../images/page1_img5.png) no-repeat left 0;
+  background: url(../assets/page1_img5.png) no-repeat left 0;
   display: block;
   position: absolute;
   width: 16px;
@@ -860,7 +860,7 @@ blockquote .blockquote_author {
 }
 .mb1 .phone:before {
   content: '';
-  background: url(../images/page1_img6.png) no-repeat left 0;
+  background: url(../assets/page1_img6.png) no-repeat left 0;
   display: block;
   position: absolute;
   width: 16px;
@@ -878,7 +878,7 @@ blockquote .blockquote_author {
 }
 .mb1 .mail:before {
   content: '';
-  background: url(../images/page1_img7.png) no-repeat left 0;
+  background: url(../assets/page1_img7.png) no-repeat left 0;
   display: block;
   position: absolute;
   width: 16px;
